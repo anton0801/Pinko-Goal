@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE499A602C7CCC7900BDB3C5 /* Pinko_GoalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A5F2C7CCC7900BDB3C5 /* Pinko_GoalApp.swift */; };
+		EE499A622C7CCC7900BDB3C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A612C7CCC7900BDB3C5 /* ContentView.swift */; };
+		EE499A642C7CCC7B00BDB3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE499A632C7CCC7B00BDB3C5 /* Assets.xcassets */; };
+		EE499A672C7CCC7B00BDB3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE499A662C7CCC7B00BDB3C5 /* Preview Assets.xcassets */; };
+		EE499A6E2C7CCD4400BDB3C5 /* Recoleta-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE499A6D2C7CCD4400BDB3C5 /* Recoleta-Regular.otf */; };
+		EE499A752C7CCEB100BDB3C5 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A742C7CCEB100BDB3C5 /* ButtonView.swift */; };
+		EE499A7C2C7CD02100BDB3C5 /* PinkoGoalScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A7B2C7CD02100BDB3C5 /* PinkoGoalScene.swift */; };
+		EE499A7F2C7CD09E00BDB3C5 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A7E2C7CD09E00BDB3C5 /* Level.swift */; };
+		EE499A812C7CD97C00BDB3C5 /* FieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A802C7CD97C00BDB3C5 /* FieldGenerator.swift */; };
+		EE499A842C7CFAF300BDB3C5 /* otskok-myacha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE499A832C7CFAF300BDB3C5 /* otskok-myacha.mp3 */; };
+		EE499A862C7D008700BDB3C5 /* PinkoGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A852C7D008700BDB3C5 /* PinkoGoalView.swift */; };
+		EE499A892C7D032400BDB3C5 /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A882C7D032400BDB3C5 /* LevelViewModel.swift */; };
+		EE499A8C2C7D034800BDB3C5 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A8B2C7D034800BDB3C5 /* LevelsView.swift */; };
+		EE499A8E2C7D069E00BDB3C5 /* SettingsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A8D2C7D069D00BDB3C5 /* SettingsGameView.swift */; };
+		EE499A902C7D076A00BDB3C5 /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE499A8F2C7D076A00BDB3C5 /* Kanit-Bold.ttf */; };
+		EE499A922C7D077600BDB3C5 /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE499A912C7D077600BDB3C5 /* Kanit-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE499A5C2C7CCC7900BDB3C5 /* Pinko Goal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinko Goal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE499A5F2C7CCC7900BDB3C5 /* Pinko_GoalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinko_GoalApp.swift; sourceTree = "<group>"; };
+		EE499A612C7CCC7900BDB3C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE499A632C7CCC7B00BDB3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE499A662C7CCC7B00BDB3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE499A6D2C7CCD4400BDB3C5 /* Recoleta-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recoleta-Regular.otf"; sourceTree = "<group>"; };
+		EE499A6F2C7CCD5600BDB3C5 /* Pinko-Goal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pinko-Goal-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE499A742C7CCEB100BDB3C5 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		EE499A7B2C7CD02100BDB3C5 /* PinkoGoalScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkoGoalScene.swift; sourceTree = "<group>"; };
+		EE499A7E2C7CD09E00BDB3C5 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		EE499A802C7CD97C00BDB3C5 /* FieldGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldGenerator.swift; sourceTree = "<group>"; };
+		EE499A832C7CFAF300BDB3C5 /* otskok-myacha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "otskok-myacha.mp3"; sourceTree = "<group>"; };
+		EE499A852C7D008700BDB3C5 /* PinkoGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkoGoalView.swift; sourceTree = "<group>"; };
+		EE499A882C7D032400BDB3C5 /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
+		EE499A8B2C7D034800BDB3C5 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		EE499A8D2C7D069D00BDB3C5 /* SettingsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsGameView.swift; sourceTree = "<group>"; };
+		EE499A8F2C7D076A00BDB3C5 /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		EE499A912C7D077600BDB3C5 /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE499A592C7CCC7900BDB3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE499A532C7CCC7900BDB3C5 = {
+			isa = PBXGroup;
+			children = (
+				EE499A5E2C7CCC7900BDB3C5 /* Pinko Goal */,
+				EE499A5D2C7CCC7900BDB3C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE499A5D2C7CCC7900BDB3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A5C2C7CCC7900BDB3C5 /* Pinko Goal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE499A5E2C7CCC7900BDB3C5 /* Pinko Goal */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A822C7CFAEA00BDB3C5 /* Audio */,
+				EE499A702C7CCE9800BDB3C5 /* UI */,
+				EE499A6F2C7CCD5600BDB3C5 /* Pinko-Goal-Info.plist */,
+				EE499A8F2C7D076A00BDB3C5 /* Kanit-Bold.ttf */,
+				EE499A912C7D077600BDB3C5 /* Kanit-Medium.ttf */,
+				EE499A6D2C7CCD4400BDB3C5 /* Recoleta-Regular.otf */,
+				EE499A5F2C7CCC7900BDB3C5 /* Pinko_GoalApp.swift */,
+				EE499A632C7CCC7B00BDB3C5 /* Assets.xcassets */,
+				EE499A652C7CCC7B00BDB3C5 /* Preview Content */,
+			);
+			path = "Pinko Goal";
+			sourceTree = "<group>";
+		};
+		EE499A652C7CCC7B00BDB3C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A662C7CCC7B00BDB3C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE499A702C7CCE9800BDB3C5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A722C7CCEA000BDB3C5 /* Screens */,
+				EE499A712C7CCE9C00BDB3C5 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EE499A712C7CCE9C00BDB3C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A742C7CCEB100BDB3C5 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE499A722C7CCEA000BDB3C5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A782C7CCF4100BDB3C5 /* Game */,
+				EE499A772C7CCF3B00BDB3C5 /* Level */,
+				EE499A762C7CCF3600BDB3C5 /* Settings */,
+				EE499A732C7CCEA500BDB3C5 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EE499A732C7CCEA500BDB3C5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A612C7CCC7900BDB3C5 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EE499A762C7CCF3600BDB3C5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A8D2C7D069D00BDB3C5 /* SettingsGameView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE499A772C7CCF3B00BDB3C5 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A8A2C7D033C00BDB3C5 /* Screen */,
+				EE499A872C7D031A00BDB3C5 /* ViewModel */,
+			);
+			path = Level;
+			sourceTree = "<group>";
+		};
+		EE499A782C7CCF4100BDB3C5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A7D2C7CD09600BDB3C5 /* Model */,
+				EE499A7A2C7CD01500BDB3C5 /* Screen */,
+				EE499A792C7CD01200BDB3C5 /* Scene */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE499A792C7CD01200BDB3C5 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A7B2C7CD02100BDB3C5 /* PinkoGoalScene.swift */,
+				EE499A802C7CD97C00BDB3C5 /* FieldGenerator.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE499A7A2C7CD01500BDB3C5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A852C7D008700BDB3C5 /* PinkoGoalView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		EE499A7D2C7CD09600BDB3C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A7E2C7CD09E00BDB3C5 /* Level.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE499A822C7CFAEA00BDB3C5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A832C7CFAF300BDB3C5 /* otskok-myacha.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		EE499A872C7D031A00BDB3C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A882C7D032400BDB3C5 /* LevelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE499A8A2C7D033C00BDB3C5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EE499A8B2C7D034800BDB3C5 /* LevelsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE499A5B2C7CCC7900BDB3C5 /* Pinko Goal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE499A6A2C7CCC7B00BDB3C5 /* Build configuration list for PBXNativeTarget "Pinko Goal" */;
+			buildPhases = (
+				EE499A582C7CCC7900BDB3C5 /* Sources */,
+				EE499A592C7CCC7900BDB3C5 /* Frameworks */,
+				EE499A5A2C7CCC7900BDB3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pinko Goal";
+			productName = "Pinko Goal";
+			productReference = EE499A5C2C7CCC7900BDB3C5 /* Pinko Goal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE499A542C7CCC7900BDB3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE499A5B2C7CCC7900BDB3C5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE499A572C7CCC7900BDB3C5 /* Build configuration list for PBXProject "Pinko Goal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE499A532C7CCC7900BDB3C5;
+			productRefGroup = EE499A5D2C7CCC7900BDB3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE499A5B2C7CCC7900BDB3C5 /* Pinko Goal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE499A5A2C7CCC7900BDB3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE499A6E2C7CCD4400BDB3C5 /* Recoleta-Regular.otf in Resources */,
+				EE499A922C7D077600BDB3C5 /* Kanit-Medium.ttf in Resources */,
+				EE499A672C7CCC7B00BDB3C5 /* Preview Assets.xcassets in Resources */,
+				EE499A902C7D076A00BDB3C5 /* Kanit-Bold.ttf in Resources */,
+				EE499A842C7CFAF300BDB3C5 /* otskok-myacha.mp3 in Resources */,
+				EE499A642C7CCC7B00BDB3C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE499A582C7CCC7900BDB3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE499A812C7CD97C00BDB3C5 /* FieldGenerator.swift in Sources */,
+				EE499A622C7CCC7900BDB3C5 /* ContentView.swift in Sources */,
+				EE499A7C2C7CD02100BDB3C5 /* PinkoGoalScene.swift in Sources */,
+				EE499A892C7D032400BDB3C5 /* LevelViewModel.swift in Sources */,
+				EE499A8C2C7D034800BDB3C5 /* LevelsView.swift in Sources */,
+				EE499A862C7D008700BDB3C5 /* PinkoGoalView.swift in Sources */,
+				EE499A602C7CCC7900BDB3C5 /* Pinko_GoalApp.swift in Sources */,
+				EE499A8E2C7D069E00BDB3C5 /* SettingsGameView.swift in Sources */,
+				EE499A7F2C7CD09E00BDB3C5 /* Level.swift in Sources */,
+				EE499A752C7CCEB100BDB3C5 /* ButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE499A682C7CCC7B00BDB3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE499A692C7CCC7B00BDB3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE499A6B2C7CCC7B00BDB3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinko Goal/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pinko-Goal-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Pinko-Goal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE499A6C2C7CCC7B00BDB3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinko Goal/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pinko-Goal-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Pinko-Goal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE499A572C7CCC7900BDB3C5 /* Build configuration list for PBXProject "Pinko Goal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE499A682C7CCC7B00BDB3C5 /* Debug */,
+				EE499A692C7CCC7B00BDB3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE499A6A2C7CCC7B00BDB3C5 /* Build configuration list for PBXNativeTarget "Pinko Goal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE499A6B2C7CCC7B00BDB3C5 /* Debug */,
+				EE499A6C2C7CCC7B00BDB3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE499A542C7CCC7900BDB3C5 /* Project object */;
+}
