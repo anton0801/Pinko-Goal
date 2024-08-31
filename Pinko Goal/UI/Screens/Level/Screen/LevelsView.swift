@@ -4,6 +4,7 @@ struct LevelsView: View {
     
     @Environment(\.presentationMode) var presMode
     @StateObject var viewModel = LevelViewModel()
+    @EnvironmentObject var userManager: UserManager
     
     var body: some View {
         NavigationView {
@@ -26,6 +27,7 @@ struct LevelsView: View {
                                 if viewModel.isLevelOpened(level) {
                                     NavigationLink(destination: PinkoGoalView(level: level)
                                         .environmentObject(viewModel)
+                                        .environmentObject(userManager)
                                         .navigationBarBackButtonHidden(true)) {
                                         Text("\(level.id)")
                                             .font(.custom("Recoleta", size: 24))
@@ -64,4 +66,5 @@ struct LevelsView: View {
 
 #Preview {
     LevelsView()
+        .environmentObject(UserManager())
 }

@@ -23,6 +23,9 @@
 		EE499A8E2C7D069E00BDB3C5 /* SettingsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499A8D2C7D069D00BDB3C5 /* SettingsGameView.swift */; };
 		EE499A902C7D076A00BDB3C5 /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE499A8F2C7D076A00BDB3C5 /* Kanit-Bold.ttf */; };
 		EE499A922C7D077600BDB3C5 /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE499A912C7D077600BDB3C5 /* Kanit-Medium.ttf */; };
+		EE499AEC2C83245C00BDB3C5 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499AEB2C83245C00BDB3C5 /* ShopView.swift */; };
+		EE499AEE2C83250900BDB3C5 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499AED2C83250900BDB3C5 /* UserManager.swift */; };
+		EE499AF02C8326DB00BDB3C5 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499AEF2C8326DB00BDB3C5 /* ShopViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		EE499A8D2C7D069D00BDB3C5 /* SettingsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsGameView.swift; sourceTree = "<group>"; };
 		EE499A8F2C7D076A00BDB3C5 /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
 		EE499A912C7D077600BDB3C5 /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		EE499AEB2C83245C00BDB3C5 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopView.swift; path = ../../../../../GameSlots/GameSlots/Feature/GameSlotInterceptor/ShopView.swift; sourceTree = "<group>"; };
+		EE499AED2C83250900BDB3C5 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EE499AEF2C8326DB00BDB3C5 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopViewModel.swift; path = "Pinko Goal/ShopViewModel.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				EE499A5F2C7CCC7900BDB3C5 /* Pinko_GoalApp.swift */,
 				EE499A632C7CCC7B00BDB3C5 /* Assets.xcassets */,
 				EE499A652C7CCC7B00BDB3C5 /* Preview Content */,
+				EE499AED2C83250900BDB3C5 /* UserManager.swift */,
 			);
 			path = "Pinko Goal";
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 		EE499A722C7CCEA000BDB3C5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				EE499AEA2C83243600BDB3C5 /* New Group */,
 				EE499A782C7CCF4100BDB3C5 /* Game */,
 				EE499A772C7CCF3B00BDB3C5 /* Level */,
 				EE499A762C7CCF3600BDB3C5 /* Settings */,
@@ -209,6 +217,15 @@
 			path = Screen;
 			sourceTree = "<group>";
 		};
+		EE499AEA2C83243600BDB3C5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				EE499AEB2C83245C00BDB3C5 /* ShopView.swift */,
+				EE499AEF2C8326DB00BDB3C5 /* ShopViewModel.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -289,9 +306,12 @@
 				EE499A892C7D032400BDB3C5 /* LevelViewModel.swift in Sources */,
 				EE499A8C2C7D034800BDB3C5 /* LevelsView.swift in Sources */,
 				EE499A862C7D008700BDB3C5 /* PinkoGoalView.swift in Sources */,
+				EE499AEE2C83250900BDB3C5 /* UserManager.swift in Sources */,
+				EE499AF02C8326DB00BDB3C5 /* ShopViewModel.swift in Sources */,
 				EE499A602C7CCC7900BDB3C5 /* Pinko_GoalApp.swift in Sources */,
 				EE499A8E2C7D069E00BDB3C5 /* SettingsGameView.swift in Sources */,
 				EE499A7F2C7CD09E00BDB3C5 /* Level.swift in Sources */,
+				EE499AEC2C83245C00BDB3C5 /* ShopView.swift in Sources */,
 				EE499A752C7CCEB100BDB3C5 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

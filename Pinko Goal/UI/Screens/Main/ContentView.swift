@@ -1,6 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var userManager = UserManager()
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -10,13 +13,16 @@ struct ContentView: View {
                     .foregroundColor(.white)
                 
                 NavigationLink(destination: LevelsView()
+                    .environmentObject(userManager)
                     .navigationBarBackButtonHidden(true)) {
                     ButtonView(text: "Play")
                 }
                 
-//                NavigationLink(destination: EmptyView()) {
-//                    ButtonView(text: "Shop")
-//                }
+                NavigationLink(destination: ShopView()
+                    .environmentObject(userManager)
+                    .navigationBarBackButtonHidden(true)) {
+                    ButtonView(text: "Shop")
+                }
                 
                 NavigationLink(destination: SettingsGameView()
                     .navigationBarBackButtonHidden(true)) {
